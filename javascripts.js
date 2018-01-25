@@ -10,30 +10,66 @@
 //   return whateverVariableYouWantToReturnHere;
 
 // }
+
+
+
+
+
+
+const back = (somestr) =>{
+
+	let backwards = '';
+
+	for (let i = somestr.length - 1; i >=0; i--){
+		
+		backwards += somestr[i];
+
+		return backwards;
+	}
+}
+
+console.log(back('oh hi mark'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // //round 1
 
 
-const words = ['green', 'blue', 'bob', 'glob']
+// const words = ['green', 'blue', 'bob', 'glob']
 
-const lengths = (arrayOfStrings) =>{
+// const lengths = (arrayOfStrings) =>{
 	
-	const numberString = arrayOfStrings
+// 	const numberString = arrayOfStrings
 
-for (let i = 0; i < numberString.length; i++){
-	numberString[i] = arrayOfStrings[i].length 
-		};
-		return numberString
-};
+// for (let i = 0; i < numberString.length; i++){
+// 	numberString[i] = arrayOfStrings[i].length 
+// 		};
+// 		return numberString
+// };
 
-console.log(lengths(['green', 'blue', 'bob', 'glob']))
+// console.log(lengths(['green', 'blue', 'bob', 'glob']))
 
 
-// //Round 2
-const transmogrifier = (x,y,z) =>{
-const sup = Math.pow((x * y), z);
-return sup
-}
-console.log(transmogrifier(5, 4, 3))
+// // //Round 2
+// const transmogrifier = (x,y,z) =>{
+// const sup = Math.pow((x * y), z);
+// return sup
+// }
+// console.log(transmogrifier(5, 4, 3))
 
 
 // //Round 3
@@ -48,16 +84,16 @@ console.log(transmogrifier(5, 4, 3))
 
 
 
-const tooney = (accent, sentence)=> {
-	if(accent === 'daffy'){
-		return sentence.replace(/s/g, 'th')
-	} else if(accent === 'elmer'){
-		return sentence.replace(/r/g, 'w')
-	}else{
-		return sentence
-	}
-};
-console.log(tooney('daffy','you smell like sausage'))
+// const tooney = (accent, sentence)=> {
+// 	if(accent === 'daffy'){
+// 		return sentence.replace(/s/g, 'th')
+// 	} else if(accent === 'elmer'){
+// 		return sentence.replace(/r/g, 'w')
+// 	}else{
+// 		return sentence
+// 	}
+// };
+// console.log(tooney('daffy','you smell like sausage'))
 
 
 
