@@ -16,23 +16,39 @@
 
 
 
-const back = (somestr) =>{
+// const back = (somestr) =>{
 
-	let backwards = '';
+// 	let backwards = '';
 
-	for (let i = somestr.length - 1; i >=0; i--){
+// 	for (let i = 0; i < somestr.length; i++){
 		
-		backwards += somestr[i];
+// 		backwards += somestr[i];
 
-		return backwards;
+// 		return backwards;
+// 	}
+// }
+
+// console.log(back('mark'))
+
+
+
+// var x = 1;
+// for (var i = 0; i < 3; i++) {
+	
+//   x += 5 * i;
+//   console.log([i])
+// }
+// console.log(x);
+
+const anagram = (one, two) =>{
+	if (one === 'sea' && two === 'shell'){
+		return true
+	}else{
+		return false
 	}
 }
 
-console.log(back('oh hi mark'))
-
-
-
-
+console.log(anagram('sea', 'shell'))
 
 
 
