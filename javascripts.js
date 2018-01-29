@@ -17,18 +17,11 @@
 
 
 // const back = (somestr) =>{
+// 	 somestr.split('') ==
 
-// 	let backwards = '';
-
-// 	for (let i = 0; i < somestr.length; i++){
-		
-// 		backwards += somestr[i];
-
-// 		return backwards;
-// 	}
 // }
 
-// console.log(back('mark'))
+// console.log(back('hi'))
 
 
 
@@ -40,15 +33,16 @@
 // }
 // console.log(x);
 
-const anagram = (one, two) =>{
-	if (one === 'sea' && two === 'shell'){
-		return true
-	}else{
-		return false
-	}
-}
+// const anagram = (one, two) =>{
+// 	if (one.split('') == 's' && two.split('') == 'shell'){
+// 		console.log(one)
+// 		return true
+// 	}else{
+// 		return false
+// 	}
+// }
 
-console.log(anagram('sea', 'shell'))
+// console.log(anagram('sea', 'shell'))
 
 
 
@@ -63,21 +57,20 @@ console.log(anagram('sea', 'shell'))
 
 
 // //round 1
+ 
 
 
-// const words = ['green', 'blue', 'bob', 'glob']
-
-// const lengths = (arrayOfStrings) =>{
+const lengths = (arrayOfStrings) =>{
 	
-// 	const numberString = arrayOfStrings
+	const numberString = arrayOfStrings
 
-// for (let i = 0; i < numberString.length; i++){
-// 	numberString[i] = arrayOfStrings[i].length 
-// 		};
-// 		return numberString
-// };
+for (let i = 0; i < numberString.length - 2; i++){
+	numberString[i] += arrayOfStrings[i].length 
+		};
+		return numberString
+};
 
-// console.log(lengths(['green', 'blue', 'bob', 'glob']))
+console.log(lengths(['green', 'blue', 'bob', 'glob']))
 
 
 // // //Round 2
