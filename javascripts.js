@@ -64,7 +64,7 @@ const lengths = (arrayOfStrings) =>{
 	
 	const numberString = arrayOfStrings
 
-for (let i = 0; i < numberString.length - 2; i++){
+for (let i = 0; i < numberString.length; i++){
 	numberString[i] += arrayOfStrings[i].length 
 		};
 		return numberString
@@ -169,19 +169,19 @@ console.log(lengths(['green', 'blue', 'bob', 'glob']))
 
 // //FINAL ROUND
 
-// const repMaster = (input, someString) => {
+const repMaster = (input, someString) => {
 
-//     return (someString(input) + 'proves that I am the rep MASTER!')
-//     console.log(input,'jai')
-//     console.log(someString, 'dafd')
-// };
+    return (someString(input) + 'proves that I am the rep MASTER!')
+    console.log(input,'jai')
+    console.log(someString, 'dafd')
+};
 
-// const someString = (input) => {
+const someString = (input) => {
 
-// return input.toUpperCase()
+return input.toUpperCase().split('').reverse().join('')
 
-// };
-// repMaster('I finished the practice', someString);
+};
+console.log(repMaster('I finished the practice ' ,  someString));
 
 
 
